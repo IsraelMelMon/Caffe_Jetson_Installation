@@ -28,11 +28,12 @@ or
 Then, go to the Caffe directory,
 ` cd caffe`
 
-Step 3: Make a copy of Makefile.config.example and rename it as Makefile.config
+##Step 3: Make a copy of Makefile.config.example and rename it as Makefile.config
 ` cp Makefile.config.example Makefile.config`
 
-Step 4: Make the following changes in Makefile.config file.
+##Step 4: Make the following changes in Makefile.config file.
 `OPENCV_VERSION := 3`  
+
 if you are using OpenCV 3 or above
 
 For CUDA version 10, you can use the below changes.
