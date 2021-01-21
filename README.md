@@ -1,9 +1,9 @@
 # Caffe_Jetson_Installation
-
-
-OpenCV
-$ sudo apt install python3-opencv
-ATLAS Or BLAS
+## Step 1:
+Make sure you have OpenCV 3.x +
+with a:
+` sudo apt install python3-opencv`
+Then install either ATLAS Or BLAS:
 ## Atlas
 `sudo apt-get install libatlas-base-dev `
 
